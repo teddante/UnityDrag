@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3569664209208562818}
   - component: {fileID: 823216505707147652}
   - component: {fileID: 4940879643415721604}
+  - component: {fileID: 7608172155170657365}
   m_Layer: 0
   m_Name: LeftWheel
   m_TagString: Untagged
@@ -98,6 +99,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7675442267942451, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &7608172155170657365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136188570032012280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &717125626858455130
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,6 +137,7 @@ GameObject:
   - component: {fileID: 1177713306627857873}
   - component: {fileID: 3040503027676001682}
   - component: {fileID: 7636230442347116557}
+  - component: {fileID: 2078170799232048935}
   m_Layer: 0
   m_Name: RightAileron
   m_TagString: Untagged
@@ -196,6 +224,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8233912834898200079, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &2078170799232048935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717125626858455130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &755274318318034667
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +262,7 @@ GameObject:
   - component: {fileID: 7867750009400898300}
   - component: {fileID: 4041979078925817783}
   - component: {fileID: 2745153347930880041}
+  - component: {fileID: 5938225440199384681}
   m_Layer: 0
   m_Name: Rudder
   m_TagString: Untagged
@@ -294,6 +349,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8216978999741479483, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &5938225440199384681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755274318318034667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &3399258480951203711
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +387,7 @@ GameObject:
   - component: {fileID: 6264972774855522252}
   - component: {fileID: 2608578911168804324}
   - component: {fileID: 2478297964022244231}
+  - component: {fileID: 471727085065623983}
   m_Layer: 0
   m_Name: Propeller
   m_TagString: Untagged
@@ -392,6 +474,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5925590898335423310, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &471727085065623983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3399258480951203711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &4426474663663938833
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,6 +512,7 @@ GameObject:
   - component: {fileID: 5757290378648690306}
   - component: {fileID: 8959302686169347038}
   - component: {fileID: 8099012450976651794}
+  - component: {fileID: 3231600950003905725}
   m_Layer: 0
   m_Name: Elevator
   m_TagString: Untagged
@@ -490,6 +599,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2745519390412981159, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &3231600950003905725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426474663663938833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &4454955423537091393
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +637,7 @@ GameObject:
   - component: {fileID: 8329427622244038555}
   - component: {fileID: 9064656986778378994}
   - component: {fileID: 6020419596928571493}
+  - component: {fileID: 7192785386548828567}
   m_Layer: 0
   m_Name: LeftFlap
   m_TagString: Untagged
@@ -588,6 +724,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5935844765062459879, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &7192785386548828567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454955423537091393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &6386285188806433483
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,6 +762,7 @@ GameObject:
   - component: {fileID: 8216717652831903094}
   - component: {fileID: 7473704383160162349}
   - component: {fileID: 1697846901469930760}
+  - component: {fileID: 9067231170247947386}
   m_Layer: 0
   m_Name: FrontWheel
   m_TagString: Untagged
@@ -686,6 +849,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2663804987058340259, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &9067231170247947386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6386285188806433483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &6596133745989441757
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +887,7 @@ GameObject:
   - component: {fileID: 5222529815673025037}
   - component: {fileID: 2675705659289983587}
   - component: {fileID: 8938215818590449011}
+  - component: {fileID: 1677782298310415483}
   m_Layer: 0
   m_Name: RightFlap
   m_TagString: Untagged
@@ -784,6 +974,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8573880842948111213, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &1677782298310415483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6596133745989441757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &7535772743205720334
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +1012,7 @@ GameObject:
   - component: {fileID: 6593033939479806806}
   - component: {fileID: 582469479624035624}
   - component: {fileID: 4496117943521582054}
+  - component: {fileID: 7878581557897126116}
   m_Layer: 0
   m_Name: LeftAileron
   m_TagString: Untagged
@@ -882,6 +1099,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8839157354354067620, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &7878581557897126116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535772743205720334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &8258903639715682438
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +1137,7 @@ GameObject:
   - component: {fileID: 3076163387585630988}
   - component: {fileID: 6476364573909945288}
   - component: {fileID: 5289124831649015883}
+  - component: {fileID: 5661422448187021580}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -980,6 +1224,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2959467708922500008, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &5661422448187021580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258903639715682438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &8428434924718813742
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1262,7 @@ GameObject:
   - component: {fileID: 2629268664143399031}
   - component: {fileID: 892324068529812688}
   - component: {fileID: 810506231451378085}
+  - component: {fileID: 5252148298915161809}
   m_Layer: 0
   m_Name: RightWheel
   m_TagString: Untagged
@@ -1078,6 +1349,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8250693891872562552, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &5252148298915161809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428434924718813742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
 --- !u!1 &8542492800101990847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1447,7 @@ GameObject:
   - component: {fileID: 3786205301017839037}
   - component: {fileID: 6829044856506034511}
   - component: {fileID: 2149242991754482763}
+  - component: {fileID: 3818331776172748005}
   m_Layer: 0
   m_Name: Stabilizer
   m_TagString: Untagged
@@ -1236,3 +1534,29 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5274235249820614487, guid: 588a5edd65e2dcb45a384188299f656d, type: 3}
+--- !u!114 &3818331776172748005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8887264371963865068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
+  DragRigidbody: {fileID: 0}
+  Triangles: 
+  Vertices: []
+  Normals: []
+  Area: []
+  GlobalCenter: []
+  FaceNormal: []
+  MeshTriangleVelocities: []
+  LastTrianglePosition: []
+  Angle: []
+  ForceMagnitude: []
+  Force: []
