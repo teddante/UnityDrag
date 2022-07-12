@@ -112,14 +112,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -237,14 +236,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -362,14 +360,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -487,14 +484,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -612,14 +608,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -737,14 +732,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -862,14 +856,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -987,14 +980,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -1112,14 +1104,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -1237,14 +1228,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -1362,14 +1352,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
@@ -1427,9 +1416,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8542492800101990847}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1547,14 +1536,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldWind: {x: 0, y: 0, z: 0}
-  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
   Triangles: 
   Vertices: []
   Normals: []
   Area: []
-  GlobalCenter: []
-  FaceNormal: []
+  WorldTriangleCenter: []
+  WorldTriangleNormal: []
   MeshTriangleVelocities: []
   LastTrianglePosition: []
   Angle: []
