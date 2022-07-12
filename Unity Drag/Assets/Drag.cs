@@ -3,10 +3,10 @@ using Vector3 = UnityEngine.Vector3;
 
 public class Drag : MonoBehaviour
 {
-    public Vector3 Wind;
+    public Vector3 WorldWind;
 
-    public Mesh Mesh;
-    public Rigidbody Rigidbody;
+    public Mesh DragMesh;
+    public Rigidbody DragRigidbody;
 
     public int[] Triangles;
     public Vector3[] Vertices;
@@ -24,12 +24,12 @@ public class Drag : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Mesh = GetComponent<MeshFilter>().mesh;
-        Rigidbody = GetComponent<Rigidbody>();
+        DragMesh = GetComponent<MeshFilter>().mesh;
+        DragRigidbody = GetComponent<Rigidbody>();
 
-        Triangles = Mesh.triangles;
-        Vertices = Mesh.vertices;
-        Normals = Mesh.normals;
+        Triangles = DragMesh.triangles;
+        Vertices = DragMesh.vertices;
+        Normals = DragMesh.normals;
 
         Area = new float[Triangles.Length / 3];
         GlobalCenter = new Vector3[Triangles.Length / 3];
@@ -50,11 +50,11 @@ public class Drag : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Triangles = Mesh.triangles;
-        Vertices = Mesh.vertices;
-        Normals = Mesh.normals;
+        Triangles = DragMesh.triangles;
+        Vertices = DragMesh.vertices;
+        Normals = DragMesh.normals;
 
         //Force at specific triangle selected in loop
         for (int triangle = 0; triangle < Triangles.Length; triangle += 3)
@@ -77,17 +77,17 @@ public class Drag : MonoBehaviour
                              transform.TransformDirection(Normals[Triangles[triangle + 2]])) /
                             3;
 
-            MeshTriangleVelocities[i] = (GlobalCenter[i] - LastTrianglePosition[i]) / Time.deltaTime;
+            MeshTriangleVelocities[i] = (GlobalCenter[i] - LastTrianglePosition[i]) / Time.fixedDeltaTime;
 
             LastTrianglePosition[i] = GlobalCenter[i];
 
-            Angle[i] = Vector3.Angle(MeshTriangleVelocities[i] + Wind, FaceNormal[i]);
+            Angle[i] = Vector3.Angle(MeshTriangleVelocities[i] + WorldWind, FaceNormal[i]);
 
-            ForceMagnitude[i] = (float)(0.5 * 1.2 * -Mathf.Pow(MeshTriangleVelocities[i].magnitude + Wind.magnitude, 2) * Mathf.Clamp(Mathf.Cos(Angle[i] * Mathf.Deg2Rad), 0, 1) * Area[i]);
+            ForceMagnitude[i] = (float)(0.5 * 1.2 * -Mathf.Pow(MeshTriangleVelocities[i].magnitude + WorldWind.magnitude, 2) * Mathf.Clamp(Mathf.Cos(Angle[i] * Mathf.Deg2Rad), 0, 1) * Area[i]);
 
             Force[i] = FaceNormal[i] * ForceMagnitude[i];
 
-            Rigidbody.AddForceAtPosition(Force[i], GlobalCenter[i]);
+            DragRigidbody.AddForceAtPosition(Force[i], GlobalCenter[i]);
 
             //Debug.DrawLine(GlobalCenter[td3], GlobalCenter[td3] + FaceNormal[td3]);
 
