@@ -1,7 +1,7 @@
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-namespace Assets
+namespace Assets.Scripts.UnityDrag
 {
     public class Drag : MonoBehaviour
     {
@@ -56,7 +56,6 @@ namespace Assets
             }
         }
 
-
         void FixedUpdate()
         {
             //Force at specific triangle selected in loop
@@ -80,7 +79,7 @@ namespace Assets
 
                 Angle[i] = Vector3.Angle(MeshTriangleVelocities[i] + World.Wind, WorldTriangleNormal[i]);
 
-                ForceMagnitude[i] = (float)(0.5 * 1.2 * -Mathf.Pow(MeshTriangleVelocities[i].magnitude + World.Wind.magnitude, 2) * Mathf.Clamp(Mathf.Cos(Angle[i] * Mathf.Deg2Rad), 0, 1) * Area[i]);
+                ForceMagnitude[i] = (float)(0.5 * World.AirDensity * -Mathf.Pow(MeshTriangleVelocities[i].magnitude + World.Wind.magnitude, 2) * Mathf.Clamp(Mathf.Cos(Angle[i] * Mathf.Deg2Rad), 0, 1) * Area[i]);
 
                 Force[i] = WorldTriangleNormal[i] * ForceMagnitude[i];
 
