@@ -427,6 +427,10 @@ PrefabInstance:
       propertyPath: DragRigidbody
       value: 
       objectReference: {fileID: 2087765890}
+    - target: {fileID: 5069822648480821208, guid: 754c01dc4aa96274fb598c9bbd267d9f, type: 3}
+      propertyPath: m_Mass
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 5252148298915161809, guid: 754c01dc4aa96274fb598c9bbd267d9f, type: 3}
       propertyPath: DragRigidbody
       value: 
@@ -465,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9063168097058888453, guid: 754c01dc4aa96274fb598c9bbd267d9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 200
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 9063168097058888453, guid: 754c01dc4aa96274fb598c9bbd267d9f, type: 3}
       propertyPath: m_LocalPosition.z

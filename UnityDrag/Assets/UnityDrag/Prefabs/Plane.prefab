@@ -111,19 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &717125626858455130
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,19 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &755274318318034667
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,19 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &3399258480951203711
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,12 +366,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3399258480951203711}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.00000018253922, y: -0.194, z: 4.136755}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9063168097058888453}
+  m_Father: {fileID: 6345615390014915692}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6264972774855522252
@@ -483,19 +450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &4426474663663938833
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,19 +563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &4454955423537091393
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,19 +676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &6386285188806433483
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,19 +789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &6596133745989441757
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,19 +902,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &7535772743205720334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,19 +1015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &8258903639715682438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,19 +1128,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
+--- !u!1 &8390245818085670629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6345615390014915692}
+  m_Layer: 0
+  m_Name: PropParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6345615390014915692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390245818085670629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.19396973, z: 4.136755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9023003352504530330}
+  m_Father: {fileID: 9063168097058888453}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8428434924718813742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,19 +1273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
 --- !u!1 &8542492800101990847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,12 +1310,12 @@ Transform:
   - {fileID: 3043718798859022638}
   - {fileID: 2719161840308043549}
   - {fileID: 4803235319798860273}
-  - {fileID: 9023003352504530330}
   - {fileID: 569990082951741520}
   - {fileID: 8293627414718963919}
   - {fileID: 3737430809756384457}
   - {fileID: 6167243423596489267}
   - {fileID: 7791835467496747717}
+  - {fileID: 6345615390014915692}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1535,16 +1446,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0bcd645bde41a43889246b938a64e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WorldWind: {x: 0, y: 0, z: 0}
+  DragMesh: {fileID: 0}
   DragRigidbody: {fileID: 0}
-  Triangles: 
-  Vertices: []
-  Normals: []
-  Area: []
-  WorldTriangleCenter: []
-  WorldTriangleNormal: []
-  MeshTriangleVelocities: []
-  LastTrianglePosition: []
-  Angle: []
-  ForceMagnitude: []
-  Force: []
