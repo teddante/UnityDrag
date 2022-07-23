@@ -60,6 +60,11 @@ namespace Assets.Scripts.UnityDrag
             }
         }
 
+        void Update()
+        {
+
+        }
+
         void FixedUpdate()
         {
             //Force at specific triangle selected in loop
